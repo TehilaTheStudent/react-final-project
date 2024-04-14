@@ -1,0 +1,13 @@
+check fullfilled etc. errors and such
+how will the server know all the fields are filled in post? 
+echeck for duplicate password
+see all users for the manager- not in reducer?
+in the reject i dont have access to the error message the sever returened, how will i know if it hapens from this error or taht error?
+the navigation in our project is SPA= single page applivation
+  // x={name:"fdfdf"}
+        // {name: 'fdfdf'}
+        // y={...x,['name']:"bla"}
+        // {name: 'bla'}
+        // y={...x,['name']:"bla"}
+        // {name: 'bla'}
+i need solution for the issue of AddProduct page
