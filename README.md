@@ -1,27 +1,54 @@
-# פרויקט סיום בריאקט- תהילה אהרונוביץ
+# React Final Project
 
-## הרצה: צד לקוח וצד שרת ,בשתיהם npm i להתקנת התלויות ואז npm start
+## Overview
+This project is a comprehensive web application built using React.js, designed as a final project for a React course. The application supports multiple user roles, allowing for various functionalities based on user permissions.
 
-### המשתמשים באתר: אורח מנהל ומשתמש רשום, מעבר נין המצבים ע"י reagister / login / logout
+## Features
+- **Guest Users**:
+  - View all products
+  - Register and log in
 
-### מסכי תצוגה:
-- ### צפייה בכל המוצרים (משתמש, אורח, מנהל)
-![צילום מסך 2024-05-02 165609](https://github.com/TehilaTheStudent/react-final-project/assets/146730488/6f11b8e8-1e33-4b7b-a62f-d8dea45a8384)
-- ### הצגת פרטי מוצר בודד (משתמש, אורח- עם אפשרות הוספה לעגלה, מנהל עם אפשרות לעריכת הפרטים)
-![צילום מסך 2024-05-02 165725](https://github.com/TehilaTheStudent/react-final-project/assets/146730488/a268fdcd-5f8a-4110-8f67-f59b10591d1b)
-- ### מסך קטן של צפייה בעגלת קניות (משתמש, אורח)
-![צילום מסך 2024-05-02 165739](https://github.com/TehilaTheStudent/react-final-project/assets/146730488/46a83018-6e95-4b68-beb4-93b6cfa672b1)
-- ### כניסה עם מייל וסיסמא (אורח)
-![צילום מסך 2024-05-02 165621](https://github.com/TehilaTheStudent/react-final-project/assets/146730488/b831cedd-5f15-4570-bac3-7d1037d60ddd)
-- ### הרשמה (אורח)
-![צילום מסך 2024-05-02 165635](https://github.com/TehilaTheStudent/react-final-project/assets/146730488/751d2053-0c7a-4201-9e76-5c212271dcd4)
+- **Registered Users**:
+  - View all products
+  - View details of individual products
+  - Add products to cart
+  - Complete purchases
 
-## מסכים נוספים ללא עיצוב:
-- צפייה בסל הקניות (אורח, משתמש)
-- תשלום וביצוע הזמנה (משתמש, (אורח מופנה להרשמה לפני התשלום))
-- למנהל:
-   - הוספת\עדכון מוצר
-   - צפייה בכל ההזמנות
-   - צפייה בכל המשתמשים
-## הערות:
-   - שיניתי קצת את הקוד של השרת לאפשר העלאת תמונה לשרת
+- **Admin Users**:
+  - Manage products (add, edit, delete)
+  - Manage orders
+  - Manage user accounts
+
+## Technology Stack
+- **Frontend**: React.js, JavaScript, HTML, CSS, Material-UI (MUI)
+- **Backend**: Node.js, Express
+- **Database**: JSON files for data storage
+
+## Installation
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TehilaTheStudent/react-final-project.git
+2. Navigate to the project directory:
+   ```bash
+   cd react-final-project
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+      ```bash
+   npm start
+5. Open your browser and go to http://localhost:3000 to view the application.
+
+## Usage
+Once the application is running, users can:
+
+- **Register**: Click on the "Register" button to create a new account.
+- **Login**: Use the login form to access registered user features.
+- **Browse Products**: Explore the product catalog as a guest or registered user, fill your cart and order.
+- **Admin Features**: Admin users can log in to manage products orders and user accounts.
+
+
+
+
